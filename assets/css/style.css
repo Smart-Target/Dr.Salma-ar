@@ -207,14 +207,14 @@ button:focus {
   color: #ffffff;
   font-size: 16px;
   text-align: center;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   background-color: #17d0b3;
 }
 
 .header-top-item .header-top-right ul li a:hover {
   color: #17d0b3;
   background-color: transparent;
-  border: 1px solid #17d0b3;
+  border: 2px solid #17d0b3;
 }
 
 /*-- End Header Top --*/
@@ -822,6 +822,35 @@ button:focus {
   left: 0;
   bottom: 0;
   width: 80px;
+  height: 5px;
+  background-color: #17d0b3;
+  border-radius: 5px;
+}
+
+.blog-bottom h2{
+  position: relative;
+}
+
+.blog-bottom h2:before {
+  position: absolute;
+  content: '';
+  bottom: -4px;
+  width: 185px;
+  height: 5px;
+  background-color: #17d0b3;
+  border-radius: 5px;
+}
+
+
+.blog-bottom .h2{
+  position: relative;
+}
+
+.blog-bottom .h2:before {
+  position: absolute;
+  content: '';
+  bottom: -4px;
+  width: 300px;
   height: 5px;
   background-color: #17d0b3;
   border-radius: 5px;
@@ -2984,6 +3013,7 @@ footer {
   font-weight: 500;
   color: #4a6f8a;
   margin-bottom: 10px;
+  letter-spacing: 1px;
 }
 
 .appointment-item-two-right .appointment-item-content .content-two ul li:last-child {
